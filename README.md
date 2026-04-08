@@ -143,6 +143,10 @@ Redist\32\MemoryLoader.exe
 .\publish.ps1
 ```
 
+```powershell
+.\powershell -ExecutionPolicy Bypass -File .\publish.ps1
+```
+
 Который собирает две версии автоматически:
 
 - `Redist\64`
